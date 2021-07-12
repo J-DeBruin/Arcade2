@@ -1,0 +1,46 @@
+html {
+    font-size: 40px;
+}
+
+body {
+    text-align: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e8/Serengeti_sunset-1001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px white;
+
+}
+
+.score {
+    background:blue;
+    padding: 0 48px;
+    line-height: 1;
+    border-radius: 16px;
+    color: #fff;
+    margin-left: 15px;  
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 600px;
+    margin: 50px auto;
+    box-shadow: 8px 8px 8px -4px black;
+    
+}
+
+.game .hole {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}

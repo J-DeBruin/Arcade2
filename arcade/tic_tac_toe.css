@@ -1,0 +1,99 @@
+body {
+    background-image: url('tic_tac_toe_background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.description {
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 30px blue;
+}
+
+.both-player-names {
+    color: white;
+    padding-left: .2em;
+    padding-right: .2em;
+}
+
+.player1 {
+    float: left;
+    font-size: 35px;
+    
+}
+.player2 {
+    float: right;
+    font-size: 35px;
+}
+
+.play-status {
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 50px blue;
+}
+
+section {
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 900px;
+    margin: 25px auto;
+    font-size: 80px;
+    box-shadow: 0 0 30px white;
+}
+.cell {
+    font-family: "fantasy";
+    width: 300px;
+    height: 240px;
+    box-shadow: 0 0 0 1px white;
+    border: 1px solid white;
+    cursor: pointer;
+    line-height: 228px;
+    font-size: 160px;
+    color: white;
+    text-shadow: 0 0 20px white, 0 0 30px red;
+}
+
+.restart-game {
+    color: white;
+    background-color: rgb(175, 42, 42);
+    border-radius: 8px;
+    padding: 0.25em 0.75em; 
+    min-width: 28rem;
+    min-height: 5.5rem;
+    font-size: 22px;
+    box-shadow: 0 0 5px white, 0 0 5px red;
+}
+
+.pvp {
+    color: white;
+    background-color: gold;
+    border-radius: 8px;
+    padding: 0.25em 0.75em; 
+    min-width: 5rem;
+    min-height: 5.5rem;
+    font-size: 22px;
+    box-shadow: 0 0 5px white;
+
+}
+
+.pve {
+    color: white;
+    background-color: gold;
+    border-radius: 8px;
+    padding: 0.25em 0.75em; 
+    min-width: 5rem;
+    min-height: 5.5rem;
+    font-size: 22px;
+    box-shadow: 0 0 5px white;
+}

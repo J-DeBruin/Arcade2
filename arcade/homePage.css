@@ -1,0 +1,25 @@
+body {
+    background-image: url('home_page_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.arcade_title {
+    color: gold;
+    font-size: 180px;
+    text-align: center;
+}
+
+.tic_tac_toe {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 0 0 30px blue;
+}
+.whack_a_mole {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 0 0 50px blue;
+}
